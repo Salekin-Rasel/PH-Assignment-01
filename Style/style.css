@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.common-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #ff6b35;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.common-btn:hover {
+    background-color: #e4572e;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
