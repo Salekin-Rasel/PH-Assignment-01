@@ -127,3 +127,127 @@ padding: 0 10px;
     color: #5f5f5f;
     margin-top: 2px;
 }
+
+
+
+
+
+
+
+/* secure your spot */
+.secure-spot{
+    text-align: center;
+    margin-top: 120px;
+    align-items: center;
+}
+.secure-spot-content{
+    margin-bottom: 40px;
+}
+.secure-spot-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.card-container{
+   display:flex;
+   justify-content: center;
+   text-align: left;
+   gap: 20px;
+   
+   
+
+}
+.secure-spot-cards{
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    padding: 32px;
+    width: 300px;
+}
+.pricing{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.pricing p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #878787;
+}
+.pricing h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.card-lists{
+    margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 0 20px;
+   color: #5f5f5f;
+}
+.card-lists ul li{
+    margin-bottom: 10px;
+}
+ul li::marker{
+    color: #204fd1;
+}
+hr{
+    border: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+.pro{
+    color: #517df7 !important;
+    font-weight: 700 !important;
+}
+.mid-card{
+    background-color: #000e28;
+}
+.pro-pricing{
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+.pro-list{
+    color: #bebebe !important;
+}
+.pro-hr{
+    border: 1px solid #2e2e2e !important;
+}
+.card-button-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.card-button{
+    background-color: #ffffff;
+    color: #1D4ED8;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 100px;
+    text-align: center;
+    border: 1px solid #1D4ED8;
+}
+.card-button:hover {
+    background-color: #37ff58;
+    color: white;
+    border: none;
+   
+}
+.card-button-container-2{
+    text-align: center;
+    margin-top: 40px;
+}
+.card-button-2{
+    background-color: #1D4ED8;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 100px;
+    text-align: center;
+}
+.card-button-2:hover {
+    background-color: #37ff58;
+   
+}
