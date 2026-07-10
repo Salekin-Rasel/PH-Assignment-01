@@ -253,6 +253,85 @@ hr{
    
 }
 
+
+/* schedule */
+/* Schedule Section */
+
+.schedule{
+    width: 90%;
+    max-width: 1200px;
+    margin: 120px auto;
+}
+
+.schedule-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-title h2{
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.schedule-title p{
+    color: #6b7280;
+    font-size: 18px;
+}
+
+.schedule-container{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.schedule-card{
+    width: 320px;
+    border: 1px solid #dbe4f0;
+    border-radius: 12px;
+    padding: 30px;
+    background: white;
+    transition: .3s;
+}
+
+.schedule-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.schedule-card h3{
+    font-size: 30px;
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+.schedule-card span{
+    color: #6b7280;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.schedule-card ul{
+    padding-left: 18px;
+}
+
+.schedule-card li{
+    margin-bottom: 12px;
+    color: #374151;
+}
+
+.featured{
+    background: #0f172a;
+    color: white;
+}
+
+.featured h3,
+.featured span,
+.featured li{
+    color: white;
+}
+
 /* footer */
 footer{
     background-color: #ffffff;
@@ -270,4 +349,8 @@ footer{
 .footer-right{
    display: flex;
     gap: 20px;
+}
+footer p{
+    color: #5f5f5f;
+    font-size: 12px;
 }
