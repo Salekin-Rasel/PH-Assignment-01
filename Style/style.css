@@ -60,15 +60,13 @@ padding: 0 10px;
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
-     display: grid;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
    
 }
-.banner-content{
-   
-}
+
 .banner-text{
     color: white;
    gap: 20px;
@@ -347,9 +345,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 90%;
-    max-width: 1200px;
-    margin: 0 auto; */
+    padding: 0 20px;
 }
 .footer-right{
    display: flex;
