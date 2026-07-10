@@ -139,6 +139,7 @@ padding: 0 10px;
     text-align: center;
     margin-top: 120px;
     align-items: center;
+    margin-bottom: 100px;
 }
 .secure-spot-content{
     margin-bottom: 40px;
@@ -250,4 +251,23 @@ hr{
 .card-button-2:hover {
     background-color: #37ff58;
    
+}
+
+/* footer */
+footer{
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin-top: 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; */
+}
+.footer-right{
+   display: flex;
+    gap: 20px;
 }
