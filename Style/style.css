@@ -39,9 +39,13 @@ img{
    
 }
 .nav-mid{
+    display: flex;
+    /* list-style: none; */
+    gap: 30px;
+
     
-    align-items: center;
-    gap: 60px;
+    /* align-items: center;
+    gap: 60px; */
     
 }
 .nav-mid a{
@@ -49,7 +53,7 @@ img{
 text-decoration: none;  
 padding: 0 10px;
 }
-.banner{
+.banner-content{
    
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/banner.jpg');
     background-size: cover;
@@ -79,11 +83,12 @@ padding: 0 10px;
     color: #e0e0e0;
     margin: 20px 0;
     padding: 0 100px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 .banner-btn{
-    
-    margin-top: 200px;
+    align-self: center;
+    margin-bottom: 20px;
+    /* margin-top: 200px; */
     
 }
 
